@@ -12,3 +12,6 @@ Tags: one-column, two-columns, right-sidebar, left-sidebar, flexible-width, cust
 
 /********************Your styles goes here**********************/
 
+.masthead-container{
+    background-color: yellow;
+}
