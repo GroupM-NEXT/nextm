@@ -1,0 +1,438 @@
+/* ---------------------- 
+Stylesheet Guide
+-------------------------
+
+GENERAL
+HEADER
+ACCORDION
+ELEMENTS
+FOOTER
+DVTEAM
+MEDIA
+RGBA COLORPICKER
+
+*/
+/* ================= GENERAL ================== */
+i.mce-i-icon {
+	font: 400 20px/1 dashicons;
+	padding: 0;
+	vertical-align: top;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	margin-left: -2px;
+	padding-right: 2px
+}
+i.dvteam-i-icon {
+    font: 400 20px/1 dashicons;
+    padding: 0;
+    vertical-align: middle;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-left: 5px;
+    padding-right: 5px;
+    color: #333;
+    margin-top: -2px;
+    display: inline-block;
+    -webkit-transition: color 0.2s ease-in-out;
+    -moz-transition: color 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+}
+
+#dvteam-message {
+    margin-top: 40px;
+    margin-right: 40px;
+    padding: 10px 20px;
+    box-shadow: none;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#dvteam-panel-wrapper {
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+/* ================= HEADER ================== */
+.dvteam_options_header {
+    position: relative;
+    background-color: #333;
+    color: #fff;
+    margin-bottom: 5px;
+    display: inline-block;
+    width: 100%;
+}
+
+.dvteam_options_header_left {
+    float: left;
+    padding: 10px 20px;
+}
+
+.dvteam_options_header_right {
+    float: right;
+    padding: 15px 10px;
+}
+
+.dvteam_options_header ul li {
+    display: inline-block;
+    margin-right: 5px;
+    float: right;
+}
+.dvteam-link {
+    border: none;
+    color: #fff;
+    background-color: #444;
+    padding: 9px 18px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.dvteam-link:hover {
+    color: #fff;
+    background-color: #eb5656;
+}
+
+.dvteam-link.primary {
+    color: #fff;
+    background-color: #eb5656;
+}
+
+.dvteam-link.primary:hover {
+    color: #fff;
+    background-color: #eb5656;
+}
+/* ================= ACCORDION ================== */
+
+.dvteam_input_section {
+    background: #fff;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.dvteam_option_input {
+    padding: 20px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.dvteam_option_input:first-child {
+    border-top: 1px solid #f5f5f5;
+}
+
+.dvteam_option_input.noborder {
+    padding-bottom: 0px !important;
+    border-bottom: none !important;
+}
+
+.dvteam_option_input label {
+    font-size: 12px;
+    font-weight: 700;
+    display: block;
+    float: left;
+    padding-right:20px;
+}
+
+.dvteam_input_title h3 {
+    color: #333;
+    cursor: pointer;
+    float: left;
+    font-size: 14px;
+    margin: 0;
+    padding: 5px 0 0;
+    width: 100%;
+}
+
+.dvteam_input_title {
+    cursor: pointer;
+    margin: 0;
+    padding: 15px;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.dvteam_input_title h3:hover i.dvteam-i-icon {
+    color: #eb5656;
+}
+
+.dvteam_input_title h3.active .dvteam-i-icon {
+    color: #eb5656;
+}
+
+.dvteam_input_title span.submit {
+    display: block;
+    float: right;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    z-index: 1;
+}
+
+form > p.submit {
+    padding: 0;
+    float: right;
+}
+
+.dvteam_all_options {
+    display: none;
+}
+
+.dvteam-option-left {
+    float: left;
+    width: 20%;
+}
+
+.dvteam-option-center {
+    float: left;
+    width: 55%;
+}
+
+.dvteam-option-right {
+    float: left;
+    width: 25%;
+}
+
+/* ================= ELEMENTS ================== */
+.dvteam_info_box {
+    background-color: #f5f5f5;
+    padding-right: 20px;
+    padding-left: 10px;
+    border-left: 3px solid #eb5656;
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
+.dvteam-button.uploadbutton {
+    width: 100%;
+    float: right;
+    padding: 11px 18px;
+    border-left: 3px solid #fff;
+}
+
+.dvteam_option_input small {
+    display: block;
+    color: #999;
+    padding-left: 20px;
+}
+
+.dvteam_option_input input[type="text"],
+.dvteam_option_input input[type="number"],
+.dvteam_option_input textarea {
+    width: 100%;
+    font-size: 13px;
+    padding: 10px;
+    line-height: 1.5;
+    color: #999;
+    background: #f5f5f5;
+    box-shadow: none !important;
+    border: none !important;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important;
+    -webkit-transition: color 0.2s ease-in-out;
+    -moz-transition: color 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+}
+
+.dvteam_option_input input[type="text"]:focus,
+.dvteam_option_input input[type="number"]:focus,
+.dvteam_option_input textarea:focus {
+    color: #333;
+}
+
+.dvteam_option_input textarea {
+    height: 150px;
+    line-height: 1.5em;
+}
+
+.dvteam-button {
+    border: none;
+    color: #333;
+    background-color: #f5f5f5;
+    padding: 9px 18px;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.dvteam-button:hover {
+    color: #fff;
+    background-color: #eb5656;
+}
+
+.dvteam-editor-desc {
+    color: #999;
+    font-size: 11px;
+    margin-top: 10px;
+}
+
+.dvteam-color, .dvteam-wp-color-picker {
+    width: auto;
+    border: none;
+    font-size: 11px;
+    color: #333;
+    background: #f5f5f5;
+    outline: none !important;
+    padding: 5px;
+}
+
+.dvteam-upload-thumb {
+    position: relative;
+    background: #f5f5f5;
+    display: inline-block;
+    padding: 3px;
+    margin-top: 10px;
+}
+
+.dvteam-upload-thumb img {
+    height: auto;
+    max-height: 100px;
+    width: auto;
+    vertical-align: bottom;
+}
+
+.dvteam-thumb-close {
+    position:absolute;
+    right:-13px;
+    top:-7px;
+    width: :15px;
+    height: 15px;
+    z-index: 1;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.dvteam-thumb-close .dvteam-i-icon {
+    color:#eb5656;
+}
+
+/* ================= FOOTER ================== */
+.footer-credit {
+    margin-top: 60px;
+}
+.dvteam-footer {
+    position: relative;
+    background-color: #333;
+    color: #fff;
+    margin-top: 0px;
+    display: inline-block;
+    width: 100%;
+}
+
+.dvteam-footer-left {
+    float: left;
+    padding: 15px 20px;
+}
+
+.dvteam-footer-right {
+    float: right;
+    padding: 0px 9px 0px 0px;
+    margin-top: -8px;
+}
+
+.dvteam-footer-left a {
+    color: #eb5656;
+    text-decoration: none;
+}
+
+.dvteam-logo {
+    height: 30px;
+    width: auto;
+    margin: 0px;
+    vertical-align: bottom;
+}
+/* ================= dvteam ================== */
+.dvthumb {
+    width: 80px !important;
+    height: auto !important;
+}
+#dvourteam_thumb {
+    width: 80px !important;
+}
+.cmb-td > .regular-text, .cmb2-textarea-small, .cmb2-textarea-code{
+    width: 100% !important;
+}
+/* ================= MEDIA ================== */
+@media screen and (max-width: 1024px) {
+    .dvteam_options_header_left {
+        width: 100%;
+        float: left;
+        padding: 10px 20px 0px 20px;
+    }
+    .dvteam_options_header_right {
+        width: auto;
+        float: left;
+        padding: 0px 0px 25px 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .dvteam-option-left,
+    .dvteam-option-center,
+    .dvteam-option-right {
+        width: 100%;
+    }
+    .dvteam-button.uploadbutton {
+        width: auto;
+        float: left;
+        border: none;
+    }
+    .dvteam-option-left {
+        padding-bottom: 20px;
+    }
+    .dvteam-option-right {
+        padding-top: 20px;
+    }
+    .dvteam_option_input small {
+        padding-left: 0px;
+    }
+    .dvteam_option_input label {
+        padding-right:0px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .dvteam_options_header ul li {
+        float: left;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .dvteam_options_header ul li:first-child {
+        margin-top: 0px;
+    }
+}
+
+/* ================= RGBA COLORPICKER ================== */
+.dvteam-alpha-wrap{display:none;position:relative;top:-1px;width:235px;padding:9px 10px;border:1px solid #dfdfdf;border-top:none;background-color:#fff}.dvteam-alpha-slider{position:absolute;width:190px;margin-left:2px;height:18px}.dvteam-alpha-slider .ui-slider-handle{position:absolute;top:-3px;bottom:-3px;z-index:5;border-color:#aaa;border-style:solid;border-width:4px 3px;width:10px;height:16px;margin:0 -5px;background:0 0;cursor:ew-resize;opacity:.9;border-radius:4px;box-shadow:0 1px 2px rgba(0,0,0,.2)}.dvteam-alpha-slider .ui-slider-handle:before{content:" ";position:absolute;left:-2px;right:-2px;top:-3px;bottom:-3px;border:2px solid #fff;border-radius:3px}.dvteam-alpha-slider-offset{height:18px;width:200px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAASCAYAAAAe/ZHXAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NkNEQUQ0ODM4RUE0MTFFNEExOEJFN0E5M0VFOTg0QUQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NkNEQUQ0ODQ4RUE0MTFFNEExOEJFN0E5M0VFOTg0QUQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo2Q0RBRDQ4MThFQTQxMUU0QTE4QkU3QTkzRUU5ODRBRCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo2Q0RBRDQ4MjhFQTQxMUU0QTE4QkU3QTkzRUU5ODRBRCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pv/r/N8AAAWYSURBVHjarFvvR3VBEN45JZGIPkREHyIiIhJJf3qUSERE9CGiDxERkcg9z9u92uucvTszz5z7xnHPj93Z2d359cxscn5+jpTS+EoiMr3/+51cZ2dn4+e29i2/u7y8RKf/pO3vc+o+n5ycoNK31+f6+jrfZ37yuG2mf3R01H3fa5N/b29vU6dP5qft0G4PDg5MGuPr/v4+jz1t27mfvN/b21P75+fHx8eZfiV/Ozs7rUJnSu/5+RlFv+m6ZJpbW1s1PnrvXl9fZ/qX89zY2LB4mfy+v7/nsdV1XltbK/dr5vnz87OcV5bJabuVlRVLBifjfX9/l/xkGtM+S0tLNXnu0szfU/P3IMn/k0678h6ddqjQFGccVL6hoCsVfsq+NZ5QtCv5rfFS41sq37W+UPhMyhxEWTetvce3NR8oewqD39qalXuGAK/WPltjajIC4x2c9Ye1f43SGcqGwRBeTZjhMNntL4pCWZMQYhE05RVl02EovRgC4RkCbUNSQAGhGB/GsKG4h6FQoigDa2i8fRBy3uLMXYIG3Vr3aZvRaCRdBYlYIMZywhBGCVhgzzOlgRuUSOvC0GMEWxOM/+EtQFh1OIIXtfwg1tRaayGjg5px0jyZKEaTle3e+AsLCygVRAh3FlEgKbReE3oYGj9EgIR00QiEgKw3ZBQbRGjBeAMtDETQmHiKDsezJNLgCTFGItZXlAgCSiQggblP+9c8SDI0lXWlFv5g3K63KZ51FOcZzthQ3LomoNHwJmKIQISI3vqzSpwIQ8liSjGMFQjDpoVgaQ6cWgvLhOC7qiAwiHrWbEg4JMSmeUrBuHoYwioOQNXmhmAcrs096s1gJCGi3hSEVU8DQxYElYHhKwUUGAa+NqOBMsSSAQJuhQhCAH4vxozExsxiihPuaIrjCVYKWlYEsjSM52G8Kxxryngl5j0j+EyGTIiED4s1Itm0ZGWxMFCLJaBAcEI6OBkmFgNBoc8Cait2ZnENE/6wQN8LJSJeSMNAjKVm+LUMAIt3PR5AQgIGp1Z5zxhE8PtXUYReYeXi4mKmOPNXBMzt2tPT07LIUtJqr66uusXEbkFnWiQ6Pj72ikrtzc1NKopuvbbj58PDwxqNHp27u7tuYWumUDV+v7+/Xyu6pc59+/DwUCsC9ujt7u6qRbt8//T01C3elbyN70fb29uZ/1FSincvLy/lPGb42tzc9IqJeHt7q61Pr2C6vr7u7tfHx8fMPhV0sLq6WhZtU0n36+uru8elPE7aLi8v1wqJPXn++fmZKYgX8ozFxcXJb0NaQTHClZT8+gBjsYdaFc+zWcUkGTCWENY66ta92oSVzo3WI6IZKGtukeyfBLFKBNAj6bUOBgaoe9wE4n04IBNkLMoC7+Skj630ZlTJMYdyMsU2T8AwpzALkVFilZgJcT2l9PCWDDSAMBSjVlJgZNk0lE1AIby0qCiCnBQNj6aBGQslZIZJ5hB6D/AzQHto5Z9Nk8tARdN4q2ExBnsyIJ311EymShyjan2rKk0zh1Ay1oQVWAZQRnkUA8RFw7TahjBnmNgMVMQrsCGZJezRtGlU0cUZ1zuaxGZPpbhApM+ZpFQqQ6xadoMtBrEKpBVo4GRXvNSxpaRixKiR+TChCYhsDwZkfFj8IkErjAHejcUI0XQrgwehhNSMHAz21E0wZ23FcCAmj8Sd/PXy2xLYLAuwRw4IMsqjFaWYOpMEhDySAPFCWyFkgAHrEcA+BNeJ4UE8HCzJPpCrerUmQIx1pWJkjqxJD8EikUo2c5aI8ZYgsAkM4WQtnHd0ns0ORgVTBghy5ISy928SGsbTMqYg523RUY8oNYG4FIYiyRyZCnFCJC87IoRAIMVOqQ7BKexxCS2hYVl9JhvlpYjnAe4MhmRPMWhhvLfXINaI9WKM0Zu0+SfAAFLE1EgfVSv7AAAAAElFTkSuQmCC);box-shadow:0 0 5px rgba(0,0,0,.4) inset;border-radius:2px}.dvteam-alpha-text{position:absolute;top:10px;right:10px;width:30px;font-size:12px;text-align:center;color:#999}
