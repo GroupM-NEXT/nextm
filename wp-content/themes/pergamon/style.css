@@ -46,6 +46,36 @@ Tags: one-column, two-columns, right-sidebar, left-sidebar, flexible-width, cust
     padding: 0px!important;
 }
 
+/*********** forms *************/
+
+/* form-contact */
+
+.form-contact{
+   padding: 10px;
+}
+
+.form-contact input{
+    width: 100%!important;
+    height: 40px!important;
+    border-radius: 0px!important;
+}
+
+.form-contact input:focus{
+    box-shadow: none!important;
+}
+
+.form-contact textarea:focus{
+    box-shadow: none!important;
+}
+
+.form-contact label{
+    font-weight: 100!important;
+}
+
+#gform_submit_button_1:focus{
+   outline: -webkit-focus-ring-color auto 0px!important;
+}
+
 /********** footer ************/
 #Bottom{
     background: #424242;
