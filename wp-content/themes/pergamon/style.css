@@ -28,13 +28,13 @@ Tags: one-column, two-columns, right-sidebar, left-sidebar, flexible-width, cust
 
 
 
-/* Ubermenu */
+/********* Ubermenu **********/
 
 .ubermenu-divider hr{
         border-top: 1px solid white!important;
 }
 
-/* footer */
+/********** footer ************/
 #Bottom{
     background: #424242;
     max-width: 100%;
