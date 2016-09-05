@@ -34,6 +34,18 @@ Tags: one-column, two-columns, right-sidebar, left-sidebar, flexible-width, cust
         border-top: 1px solid white!important;
 }
 
+
+/******** page body **********/
+
+/* gør page full width*/
+#Middle{
+    max-width: 100%!important;
+}
+
+.row-fluid{
+    padding: 0px!important;
+}
+
 /********** footer ************/
 #Bottom{
     background: #424242;
