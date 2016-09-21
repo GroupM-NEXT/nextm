@@ -1,0 +1,131 @@
+/*  
+Theme Name: Pergamon
+Description: Child of the Vellum theme
+Author: Doris Lessing
+Template: parallelus-vellum
+Version: 1.0
+Tags: one-column, two-columns, right-sidebar, left-sidebar, flexible-width, custom-menu, editor-style, featured-images, post-formats, rtl-language-support, sticky-post, translation-read
+*/
+@import url("../parallelus-vellum/style.css");
+
+
+
+/********************Your styles goes here**********************/
+
+/* media queries */
+
+/*tablet og mobile devices*/
+@media only screen and (max-width: 767px){
+    
+    /*footer top*/
+    .top-footer-text{
+        display: none;
+    }
+    .footer-column-content{
+        text-align: center;
+    }
+}
+
+
+
+/********* Ubermenu **********/
+
+.ubermenu-divider hr{
+        border-top: 1px solid white!important;
+}
+
+
+/******** page body **********/
+
+/* gør page full width*/
+#Middle{
+    max-width: 100%!important;
+}
+
+.row-fluid{
+    padding: 0px!important;
+}
+
+/*********** forms *************/
+
+/* form-contact */
+
+.form-contact{
+   padding: 10px;
+}
+
+.form-contact input{
+    width: 100%!important;
+    height: 40px!important;
+    border-radius: 0px!important;
+}
+
+.form-contact input:focus{
+    box-shadow: none!important;
+}
+
+.form-contact textarea:focus{
+    box-shadow: none!important;
+}
+
+.form-contact label{
+    font-weight: 100!important;
+}
+
+#gform_submit_button_1:focus{
+   outline: -webkit-focus-ring-color auto 0px!important;
+}
+
+/********** footer ************/
+#Bottom{
+    background: #424242;
+    max-width: 100%;
+    padding-top: 50px;
+}
+
+
+/* footer-top */
+
+#FooterTop{
+    padding-bottom: 24px;
+}
+
+.footer-logo{
+    width: 130px;
+}
+
+.follow-title{
+    font-size: 20px;
+}
+
+.social-container{
+    margin-bottom: 24px;
+}
+
+.social-icon-footer{
+    display: inline-block;
+    font-size: 30px!important;
+    margin-right: 10px;
+}
+
+.footer-top-hashtag{
+    font-size: 16px;
+}
+
+.footer-press-link{
+    font-size: 16px;
+}
+
+/* footer-bottom */
+#FooterBottom{
+    background-color: #313131;
+}
+
+.footer-bottom{
+    text-align: center;
+}
+
+.footer-bottom p{
+    margin-top: 24px;
+}
+

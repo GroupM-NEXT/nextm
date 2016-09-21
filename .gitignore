@@ -1,3 +1,5 @@
 wp-content/uploads/phpFlickrCache
 
 *.zip
+
+node_modules
